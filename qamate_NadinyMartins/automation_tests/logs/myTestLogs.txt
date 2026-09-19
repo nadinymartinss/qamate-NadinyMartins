@@ -1,0 +1,48 @@
+Attaching to sample, flask
+sample     | 
+sample     | > react-redux-realworld-example-app@0.1.0 start /app
+sample     | > cross-env PORT=4100 react-scripts start
+sample     | 
+flask      |  * Serving Flask app "/app/autoapp.py" (lazy loading)
+flask      |  * Environment: production
+flask      |    WARNING: This is a development server. Do not use it in a production deployment.
+flask      |    Use a production WSGI server instead.
+flask      |  * Debug mode: on
+flask      |  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+flask      |  * Restarting with stat
+flask      |  * Debugger is active!
+flask      |  * Debugger PIN: 492-802-202
+sample     | Starting the development server...
+sample     | 
+sample     | Compiled successfully!
+sample     | 
+sample     | You can now view react-redux-realworld-example-app in the browser.
+sample     | 
+sample     |    Local:            http://localhost:4100/
+sample     |    On Your Network:  http://172.18.0.2:4100/
+sample     | 
+sample     | Note that the development build is not optimized.
+sample     | To create a production build, use npm run build.
+sample     | 
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:39] "OPTIONS /api/user HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:39] "GET /api/user HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:39] "OPTIONS /api/tags HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:39] "OPTIONS /api/articles/feed?limit=10&offset=0 HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:39] "GET /api/tags HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:39] "GET /api/articles/feed?limit=10&offset=0 HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:41] "OPTIONS /api/articles?limit=10&offset=0 HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:41] "GET /api/articles?limit=10&offset=0 HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:43] "OPTIONS /api/profiles/smaciiqw HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:43] "OPTIONS /api/articles?author=smaciiqw&limit=5&offset=0 HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:43] "GET /api/profiles/smaciiqw HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:43] "GET /api/articles?author=smaciiqw&limit=5&offset=0 HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:46] "OPTIONS /api/articles?favorited=smaciiqw&limit=5&offset=0 HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:46] "GET /api/profiles/smaciiqw HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:46] "GET /api/articles?favorited=smaciiqw&limit=5&offset=0 HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:53] "OPTIONS /api/articles HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:53] "POST /api/articles HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:53] "OPTIONS /api/articles/ff HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:53] "OPTIONS /api/articles/ff/comments HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:53] "GET /api/articles/ff/comments HTTP/1.1" 200 -
+flask      | 172.18.0.1 - - [01/Jul/2020 19:25:53] "GET /api/articles/ff HTTP/1.1" 200 -
+Gracefully stopping... (press Ctrl+C again to force)
